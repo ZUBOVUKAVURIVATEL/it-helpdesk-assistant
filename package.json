@@ -1,0 +1,18 @@
+{
+  "name": "it-helpdesk-assistant",
+  "version": "1.0.0",
+  "description": "Система автоматизации IT-поддержки первой линии на основе локальной языковой модели",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "eval": "node scripts/evaluate.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
